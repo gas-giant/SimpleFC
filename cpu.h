@@ -23,4 +23,8 @@ private:
     U8 X, Y;
     U16 PC;
     U8 P;
+public:
+    void ADC(U8 value);
+    void AND(U8 value);
+    void ASL(U8& value);
 };
